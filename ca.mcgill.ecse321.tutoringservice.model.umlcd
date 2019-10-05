@@ -1,0 +1,1064 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_aT3tsOSfEemKQfzNI-tWpw">
+  <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_aKM0UOSfEemKQfzNI-tWpw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_W1R3MOSwEemKQfzNI-tWpw" sourceAnchor="102.0,0.0" targetAnchor="109.0,88.0" superClass="_OrBLgOSwEemKQfzNI-tWpw" subClass="_yLpbIOSfEemKQfzNI-tWpw">
+    <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_W1RQIOSwEemKQfzNI-tWpw"/>
+    <visualProperties xmi:id="_W1R3MeSwEemKQfzNI-tWpw" position="0.0,0.0"/>
+    <bendpoints xmi:id="_nJZucOWLEemgm7lcvLLipQ" sourceY="-168" targetX="-613" targetY="66"/>
+    <bendpoints xmi:id="_nJZuceWLEemgm7lcvLLipQ" sourceX="613" sourceY="-168" targetY="66"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_X8syQOSwEemKQfzNI-tWpw" sourceAnchor="100.0,0.0" targetAnchor="109.0,88.0" superClass="_OrBLgOSwEemKQfzNI-tWpw" subClass="_XQqLoOSwEemKQfzNI-tWpw">
+    <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_X8rkIOSwEemKQfzNI-tWpw"/>
+    <visualProperties xmi:id="_X8syQeSwEemKQfzNI-tWpw" position="0.0,0.0"/>
+    <bendpoints xmi:id="_nJQkgOWLEemgm7lcvLLipQ" sourceY="-30" targetX="516" targetY="66"/>
+    <bendpoints xmi:id="_nJQkgeWLEemgm7lcvLLipQ" sourceX="-516" sourceY="-30" targetY="66"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_KKo7IOSxEemKQfzNI-tWpw" sourceAnchor="0.0,59.0" targetAnchor="156.0,161.0" target="_ZcM2IOSwEemKQfzNI-tWpw" source="_yohkYOSfEemKQfzNI-tWpw">
+    <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_KKlQwOSxEemKQfzNI-tWpw"/>
+    <visualProperties xmi:id="_KKo7IeSxEemKQfzNI-tWpw"/>
+    <bendpoints xmi:id="_nJaVgOWLEemgm7lcvLLipQ" sourceX="-181" sourceY="-8" targetY="95"/>
+    <nameVisual xmi:id="_KKo7IuSxEemKQfzNI-tWpw" text="">
+      <visualProperties xmi:id="_KNezwOSxEemKQfzNI-tWpw" position="-13.0,-72.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_KKo7I-SxEemKQfzNI-tWpw" aggregationKind="NONE" name="subjectsTaught" navigable="true">
+      <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_KKlQweSxEemKQfzNI-tWpw"/>
+      <visualProperties xmi:id="_KNeMsuSxEemKQfzNI-tWpw" position="-178.0,-96.0"/>
+      <visibility xmi:id="_KKo7JOSxEemKQfzNI-tWpw" label="+"/>
+      <cardinality xmi:id="_KKo7JeSxEemKQfzNI-tWpw" label="1..*" max="-1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_KKo7JuSxEemKQfzNI-tWpw" aggregationKind="NONE" name="subjectTutors" navigable="true">
+      <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_KKl30uSxEemKQfzNI-tWpw"/>
+      <visualProperties xmi:id="_KNezweSxEemKQfzNI-tWpw" position="1.0,77.0"/>
+      <visibility xmi:id="_KKo7J-SxEemKQfzNI-tWpw" label="+"/>
+      <cardinality xmi:id="_KKo7KOSxEemKQfzNI-tWpw" label="*" max="-1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_HZXSEOTMEemKQfzNI-tWpw" sourceAnchor="201.0,41.0" targetAnchor="99.0,0.0" target="_7uWHUOTJEemKQfzNI-tWpw" source="_XQqLoOSwEemKQfzNI-tWpw">
+    <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_HYXzkOTMEemKQfzNI-tWpw"/>
+    <visualProperties xmi:id="_HZXSEeTMEemKQfzNI-tWpw"/>
+    <bendpoints xmi:id="_nJPWYOWLEemgm7lcvLLipQ" sourceX="168" sourceY="-1" targetY="-316"/>
+    <nameVisual xmi:id="_HZXSEuTMEemKQfzNI-tWpw" text="">
+      <visualProperties xmi:id="_HeN84OTMEemKQfzNI-tWpw" position="2.0,135.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_HZXSE-TMEemKQfzNI-tWpw" aggregationKind="NONE" name="studentsEnrolled" navigable="true">
+      <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_HYYaoOTMEemKQfzNI-tWpw"/>
+      <visualProperties xmi:id="_HeAhguTMEemKQfzNI-tWpw" position="1.0,1.0"/>
+      <visibility xmi:id="_HZXSFOTMEemKQfzNI-tWpw" label="+"/>
+      <cardinality xmi:id="_HZXSFeTMEemKQfzNI-tWpw" label="*" max="-1"/>
+    </sourceRole>
+    <targetRole xmi:id="_HZXSFuTMEemKQfzNI-tWpw" aggregationKind="NONE" name="coursesTaken" navigable="true">
+      <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_HYnEIOTMEemKQfzNI-tWpw"/>
+      <visualProperties xmi:id="_HeN84eTMEemKQfzNI-tWpw" position="2.0,-99.0"/>
+      <visibility xmi:id="_HZXSF-TMEemKQfzNI-tWpw" label="+"/>
+      <cardinality xmi:id="_HZXSGOTMEemKQfzNI-tWpw" label="*" max="-1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_aI4sQOTMEemKQfzNI-tWpw" sourceAnchor="198.0,116.0" targetAnchor="0.0,13.0" target="_7uWHUOTJEemKQfzNI-tWpw" source="_ZcM2IOSwEemKQfzNI-tWpw">
+    <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_aImYYOTMEemKQfzNI-tWpw"/>
+    <visualProperties xmi:id="_aI4sQeTMEemKQfzNI-tWpw"/>
+    <nameVisual xmi:id="_aI4sQuTMEemKQfzNI-tWpw" text="">
+      <visualProperties xmi:id="_aPxXYOTMEemKQfzNI-tWpw" position="-37.0,2.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_aI4sQ-TMEemKQfzNI-tWpw" aggregationKind="NONE" name="offeringTutors" navigable="true">
+      <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_aInmgOTMEemKQfzNI-tWpw"/>
+      <visualProperties xmi:id="_aPwwUuTMEemKQfzNI-tWpw" position="84.0,2.0"/>
+      <visibility xmi:id="_aI4sROTMEemKQfzNI-tWpw" label="+"/>
+      <cardinality xmi:id="_aI4sReTMEemKQfzNI-tWpw" label="*" max="-1"/>
+    </sourceRole>
+    <targetRole xmi:id="_aI4sRuTMEemKQfzNI-tWpw" aggregationKind="NONE" name="offeringsTaught" navigable="true">
+      <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_aIo0oeTMEemKQfzNI-tWpw"/>
+      <visualProperties xmi:id="_aPx-cOTMEemKQfzNI-tWpw" position="-203.0,-57.0"/>
+      <visibility xmi:id="_aI4sR-TMEemKQfzNI-tWpw" label="+"/>
+      <cardinality xmi:id="_aI4sSOTMEemKQfzNI-tWpw" label="*" max="-1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_qAVGEOTMEemKQfzNI-tWpw" sourceAnchor="334.0,91.0" targetAnchor="0.0,193.0" target="_7uWHUOTJEemKQfzNI-tWpw" source="_yohkYOSfEemKQfzNI-tWpw">
+    <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_qAPmgOTMEemKQfzNI-tWpw"/>
+    <visualProperties xmi:id="_qAVGEeTMEemKQfzNI-tWpw"/>
+    <nameVisual xmi:id="_qAVGEuTMEemKQfzNI-tWpw" text="">
+      <visualProperties xmi:id="_qC4q0OTMEemKQfzNI-tWpw" position="-1.0,-24.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_qAVGE-TMEemKQfzNI-tWpw" aggregationKind="NONE" name="subject" navigable="true">
+      <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_qAPmgeTMEemKQfzNI-tWpw"/>
+      <visualProperties xmi:id="_qC3csuTMEemKQfzNI-tWpw" position="1.0,-96.0"/>
+      <visibility xmi:id="_qAVGFOTMEemKQfzNI-tWpw" label="+"/>
+      <cardinality xmi:id="_qAVGFeTMEemKQfzNI-tWpw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_qAVGFuTMEemKQfzNI-tWpw" name="offering" navigable="true">
+      <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_qAQ0oOTMEemKQfzNI-tWpw"/>
+      <visualProperties xmi:id="_qC4q0eTMEemKQfzNI-tWpw" position="-94.0,2.0"/>
+      <visibility xmi:id="_qAVGF-TMEemKQfzNI-tWpw" label="+"/>
+      <cardinality xmi:id="_qAVGGOTMEemKQfzNI-tWpw" label="*" max="-1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_yGpToOTREemKQfzNI-tWpw" sourceAnchor="113.0,0.0" targetAnchor="109.0,88.0" superClass="_OrBLgOSwEemKQfzNI-tWpw" subClass="_wiG-wOTREemKQfzNI-tWpw">
+    <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_yGnecOTREemKQfzNI-tWpw"/>
+    <visualProperties xmi:id="_yGpToeTREemKQfzNI-tWpw"/>
+    <bendpoints xmi:id="_nJRyoOWLEemgm7lcvLLipQ" sourceY="-41" targetX="-403" targetY="66"/>
+    <bendpoints xmi:id="_nJRyoeWLEemgm7lcvLLipQ" sourceX="403" sourceY="-41" targetY="66"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_FgFNgOTSEemKQfzNI-tWpw" sourceAnchor="121.0,0.0" targetAnchor="73.0,101.0" superClass="_-HP-wOTREemKQfzNI-tWpw" subClass="_CJbFoOTQEemKQfzNI-tWpw">
+    <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_FgD_YOTSEemKQfzNI-tWpw"/>
+    <visualProperties xmi:id="_FgFNgeTSEemKQfzNI-tWpw"/>
+    <bendpoints xmi:id="_nJhqQOWLEemgm7lcvLLipQ" sourceY="-30" targetX="-100" targetY="98"/>
+    <bendpoints xmi:id="_nJjfcOWLEemgm7lcvLLipQ" sourceX="101" sourceY="-33" targetX="1" targetY="95"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_FunYwOTSEemKQfzNI-tWpw" sourceAnchor="96.0,0.0" targetAnchor="73.0,101.0" superClass="_-HP-wOTREemKQfzNI-tWpw" subClass="_ZcM2IOSwEemKQfzNI-tWpw">
+    <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_Fuk8gOTSEemKQfzNI-tWpw"/>
+    <visualProperties xmi:id="_FunYweTSEemKQfzNI-tWpw"/>
+    <bendpoints xmi:id="_nJjfdeWLEemgm7lcvLLipQ" sourceY="-36" targetX="112" targetY="98"/>
+    <bendpoints xmi:id="_nJjfduWLEemgm7lcvLLipQ" sourceX="-111" sourceY="-39" targetX="1" targetY="95"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_SXwqkOTSEemKQfzNI-tWpw" sourceAnchor="166.0,54.0" targetAnchor="0.0,47.0" target="_-HP-wOTREemKQfzNI-tWpw" source="_wiG-wOTREemKQfzNI-tWpw">
+    <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_SXmSgOTSEemKQfzNI-tWpw"/>
+    <visualProperties xmi:id="_SXwqkeTSEemKQfzNI-tWpw"/>
+    <nameVisual xmi:id="_SXwqkuTSEemKQfzNI-tWpw" text="">
+      <visualProperties xmi:id="_ScTzYOTSEemKQfzNI-tWpw" position="17.0,2.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_SXwqk-TSEemKQfzNI-tWpw" aggregationKind="NONE" name="tutor" navigable="true">
+      <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_SXm5kOTSEemKQfzNI-tWpw"/>
+      <visualProperties xmi:id="_ScTMUOTSEemKQfzNI-tWpw" position="29.0,2.0"/>
+      <visibility xmi:id="_SXxRoOTSEemKQfzNI-tWpw" label="+"/>
+      <cardinality xmi:id="_SXxRoeTSEemKQfzNI-tWpw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_SXxRouTSEemKQfzNI-tWpw" aggregationKind="NONE" name="tutorRole" navigable="true">
+      <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_SXpV0eTSEemKQfzNI-tWpw"/>
+      <visualProperties xmi:id="_ScTzYeTSEemKQfzNI-tWpw" position="-97.0,-57.0"/>
+      <visibility xmi:id="_SXxRo-TSEemKQfzNI-tWpw" label="+"/>
+      <cardinality xmi:id="_SXxRpOTSEemKQfzNI-tWpw" label="1..2" max="2" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_74nhMOUXEem6X9JuLcITng" sourceAnchor="0.0,50.0" targetAnchor="254.0,65.0" target="_wJiq8OUXEem6X9JuLcITng" source="_OrBLgOSwEemKQfzNI-tWpw">
+    <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_74lE8OUXEem6X9JuLcITng"/>
+    <visualProperties xmi:id="_74nhMeUXEem6X9JuLcITng"/>
+    <nameVisual xmi:id="_74nhMuUXEem6X9JuLcITng" text="">
+      <visualProperties xmi:id="_77TBwOUXEem6X9JuLcITng" position="25.333333333333343,2.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_74nhM-UXEem6X9JuLcITng" aggregationKind="NONE" name="person">
+      <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_74lE8eUXEem6X9JuLcITng"/>
+      <visualProperties xmi:id="_77RzoOUXEem6X9JuLcITng" position="-128.0,-56.99999999999994"/>
+      <visibility xmi:id="_74nhNOUXEem6X9JuLcITng" label="+"/>
+      <cardinality xmi:id="_74nhNeUXEem6X9JuLcITng" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_74nhNuUXEem6X9JuLcITng" aggregationKind="NONE" name="loginInfo" navigable="true">
+      <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_74lE9OUXEem6X9JuLcITng"/>
+      <visualProperties xmi:id="_77TBweUXEem6X9JuLcITng" position="40.0,1.9999999999999716"/>
+      <visibility xmi:id="_74nhN-UXEem6X9JuLcITng" label="+"/>
+      <cardinality xmi:id="_74nhOOUXEem6X9JuLcITng" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_VdRN4OUdEem6X9JuLcITng" sourceAnchor="101.0,0.0" targetAnchor="89.0,86.0" superClass="_OJfeQOUdEem6X9JuLcITng" subClass="_UIgaYeUdEem6X9JuLcITng">
+    <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_VdQm0OUdEem6X9JuLcITng"/>
+    <visualProperties xmi:id="_VdRN4eUdEem6X9JuLcITng"/>
+    <bendpoints xmi:id="_nJd_4uWLEemgm7lcvLLipQ" sourceY="-30" targetX="-104" targetY="84"/>
+    <bendpoints xmi:id="_nJem8OWLEemgm7lcvLLipQ" sourceX="105" sourceY="-33" targetX="1" targetY="81"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_VpnAwOUdEem6X9JuLcITng" sourceAnchor="78.0,0.0" targetAnchor="89.0,86.0" superClass="_OJfeQOUdEem6X9JuLcITng" subClass="_U8sQYOUdEem6X9JuLcITng">
+    <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_VplyoOUdEem6X9JuLcITng"/>
+    <visualProperties xmi:id="_Vpnn0OUdEem6X9JuLcITng"/>
+    <bendpoints xmi:id="_nJdY0OWLEemgm7lcvLLipQ" sourceY="-34" targetX="64" targetY="84"/>
+    <bendpoints xmi:id="_nJdY0eWLEemgm7lcvLLipQ" sourceX="-63" sourceY="-37" targetX="1" targetY="81"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_eINIQOUeEem6X9JuLcITng" sourceAnchor="219.0,65.0" targetAnchor="0.0,70.0" target="_Ace0gOVFEemg0sXdMfRgag" source="_OrBLgOSwEemKQfzNI-tWpw">
+    <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_eII20OUeEem6X9JuLcITng"/>
+    <visualProperties xmi:id="_eINvUOUeEem6X9JuLcITng"/>
+    <nameVisual xmi:id="_eINvUeUeEem6X9JuLcITng" text="">
+      <visualProperties xmi:id="_eL58gOUeEem6X9JuLcITng" position="-34.5,1.5"/>
+    </nameVisual>
+    <sourceRole xmi:id="_eINvUuUeEem6X9JuLcITng" aggregationKind="NONE" name="person">
+      <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_eIJd4OUeEem6X9JuLcITng"/>
+      <visualProperties xmi:id="_eL5VcOUeEem6X9JuLcITng" position="46.33333333333326,1.5"/>
+      <visibility xmi:id="_eINvU-UeEem6X9JuLcITng" label="+"/>
+      <cardinality xmi:id="_eINvVOUeEem6X9JuLcITng" label="1..*" max="-1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_eINvVeUeEem6X9JuLcITng" aggregationKind="NONE" name="dateOfBirth" navigable="true">
+      <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_eIKE8OUeEem6X9JuLcITng"/>
+      <visualProperties xmi:id="_eL6jkOUeEem6X9JuLcITng" position="-106.0,-57.5"/>
+      <visibility xmi:id="_eINvVuUeEem6X9JuLcITng" label="+"/>
+      <cardinality xmi:id="_eINvV-UeEem6X9JuLcITng" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_bGh1EOUgEem6X9JuLcITng" sourceAnchor="145.0,12.0" targetAnchor="0.0,47.0" target="_CTfZQOUgEem6X9JuLcITng" source="_U_b7AOUgEem6X9JuLcITng">
+    <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_bGf_4OUgEem6X9JuLcITng"/>
+    <visualProperties xmi:id="_bGh1EeUgEem6X9JuLcITng"/>
+    <nameVisual xmi:id="_bGh1EuUgEem6X9JuLcITng" text="">
+      <visualProperties xmi:id="_bLJ2YOUgEem6X9JuLcITng" position="19.0,-24.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_bGh1E-UgEem6X9JuLcITng" aggregationKind="NONE" name="university" navigable="true">
+      <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_bGf_4eUgEem6X9JuLcITng"/>
+      <visualProperties xmi:id="_bLIoQOUgEem6X9JuLcITng" position="-5.0,-42.0"/>
+      <visibility xmi:id="_bGh1FOUgEem6X9JuLcITng" label="+"/>
+      <cardinality xmi:id="_bGh1FeUgEem6X9JuLcITng" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_bGh1FuUgEem6X9JuLcITng" aggregationKind="NONE" name="universityCourse" navigable="true">
+      <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_bGf_5OUgEem6X9JuLcITng"/>
+      <visualProperties xmi:id="_bLJ2YeUgEem6X9JuLcITng" position="-100.0,7.0"/>
+      <visibility xmi:id="_bGh1F-UgEem6X9JuLcITng" label="+"/>
+      <cardinality xmi:id="_bGh1GOUgEem6X9JuLcITng" label="*" max="-1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_rJSuEOUgEem6X9JuLcITng" sourceAnchor="72.0,0.0" targetAnchor="167.0,182.0" superClass="_yohkYOSfEemKQfzNI-tWpw" subClass="_CTfZQOUgEem6X9JuLcITng">
+    <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_rJSHAOUgEem6X9JuLcITng"/>
+    <visualProperties xmi:id="_rJSuEeUgEem6X9JuLcITng"/>
+    <bendpoints xmi:id="_nJWrI-WLEemgm7lcvLLipQ" sourceY="-30" targetX="-128" targetY="128"/>
+    <bendpoints xmi:id="_nJXSMOWLEemgm7lcvLLipQ" sourceX="128" sourceY="-51" targetY="107"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_rcev0OUgEem6X9JuLcITng" sourceAnchor="69.0,0.0" targetAnchor="167.0,182.0" superClass="_yohkYOSfEemKQfzNI-tWpw" subClass="_WF5z0OUgEem6X9JuLcITng">
+    <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_rceIwOUgEem6X9JuLcITng"/>
+    <visualProperties xmi:id="_rcev0eUgEem6X9JuLcITng"/>
+    <bendpoints xmi:id="_nJcKsuWLEemgm7lcvLLipQ" sourceY="-38" targetX="36" targetY="128"/>
+    <bendpoints xmi:id="_nJcKs-WLEemgm7lcvLLipQ" sourceX="-36" sourceY="-59" targetY="107"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_rt_WkOUgEem6X9JuLcITng" sourceAnchor="83.0,0.0" targetAnchor="167.0,182.0" superClass="_yohkYOSfEemKQfzNI-tWpw" subClass="_Ym0RYeUgEem6X9JuLcITng">
+    <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_rt-vgOUgEem6X9JuLcITng"/>
+    <visualProperties xmi:id="_rt_WkeUgEem6X9JuLcITng"/>
+    <bendpoints xmi:id="_nJX5QOWLEemgm7lcvLLipQ" sourceY="-31" targetX="220" targetY="128"/>
+    <bendpoints xmi:id="_nJX5QeWLEemgm7lcvLLipQ" sourceX="-220" sourceY="-52" targetY="107"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_k7ddYOUhEem6X9JuLcITng" sourceAnchor="62.0,0.0" targetAnchor="0.0,41.0" target="_XQqLoOSwEemKQfzNI-tWpw" source="_g9dWwOUhEem6X9JuLcITng">
+    <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_k7aaEOUhEem6X9JuLcITng"/>
+    <visualProperties xmi:id="_k7ddYeUhEem6X9JuLcITng"/>
+    <bendpoints xmi:id="_nJTAwOWLEemgm7lcvLLipQ" sourceY="-86" targetX="-95" targetY="-1"/>
+    <nameVisual xmi:id="_k7ddYuUhEem6X9JuLcITng" text="">
+      <visualProperties xmi:id="_lBhpIeUhEem6X9JuLcITng" position="36.0,-24.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_k7ddY-UhEem6X9JuLcITng" aggregationKind="NONE" name="subjectRequest" navigable="true">
+      <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_k7aaEeUhEem6X9JuLcITng"/>
+      <visualProperties xmi:id="_lBhpIOUhEem6X9JuLcITng" position="-109.0,-49.0"/>
+      <visibility xmi:id="_k7ddZOUhEem6X9JuLcITng" label="+"/>
+      <cardinality xmi:id="_k7ddZeUhEem6X9JuLcITng" label="*" max="-1"/>
+    </sourceRole>
+    <targetRole xmi:id="_k7ddZuUhEem6X9JuLcITng" aggregationKind="NONE" name="student" navigable="true">
+      <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_k7bBIuUhEem6X9JuLcITng"/>
+      <visualProperties xmi:id="_lBhpIuUhEem6X9JuLcITng" position="-66.0,-51.999999999999986"/>
+      <visibility xmi:id="_k7ddZ-UhEem6X9JuLcITng" label="+"/>
+      <cardinality xmi:id="_k7ddaOUhEem6X9JuLcITng" label="*" max="-1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_l08qIOUhEem6X9JuLcITng" sourceAnchor="0.0,59.0" targetAnchor="203.0,47.0" target="_yLpbIOSfEemKQfzNI-tWpw" source="_g9dWwOUhEem6X9JuLcITng">
+    <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_l06N4OUhEem6X9JuLcITng"/>
+    <visualProperties xmi:id="_l08qIeUhEem6X9JuLcITng"/>
+    <nameVisual xmi:id="_l08qIuUhEem6X9JuLcITng" text="">
+      <visualProperties xmi:id="_l4zPYOUhEem6X9JuLcITng" position="7.0,-24.0000000000002"/>
+    </nameVisual>
+    <sourceRole xmi:id="_l08qI-UhEem6X9JuLcITng" aggregationKind="NONE" name="subjectRequest" navigable="true">
+      <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_l0608OUhEem6X9JuLcITng"/>
+      <visualProperties xmi:id="_l4yoUOUhEem6X9JuLcITng" position="-211.0,-57.0"/>
+      <visibility xmi:id="_l08qJOUhEem6X9JuLcITng" label="+"/>
+      <cardinality xmi:id="_l08qJeUhEem6X9JuLcITng" label="*" max="-1"/>
+    </sourceRole>
+    <targetRole xmi:id="_l08qJuUhEem6X9JuLcITng" aggregationKind="NONE" name="manager" navigable="true">
+      <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_l0608-UhEem6X9JuLcITng"/>
+      <visualProperties xmi:id="_l4zPYeUhEem6X9JuLcITng" position="64.0,-56.99999999999963"/>
+      <visibility xmi:id="_l08qJ-UhEem6X9JuLcITng" label="+"/>
+      <cardinality xmi:id="_l08qKOUhEem6X9JuLcITng" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_x5pVoOUiEem6X9JuLcITng" sourceAnchor="62.0,126.0" targetAnchor="111.0,0.0" target="_yohkYOSfEemKQfzNI-tWpw" source="_g9dWwOUhEem6X9JuLcITng">
+    <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_x5mSUOUiEem6X9JuLcITng"/>
+    <visualProperties xmi:id="_x5pVoeUiEem6X9JuLcITng"/>
+    <nameVisual xmi:id="_x5pVouUiEem6X9JuLcITng" text="">
+      <visualProperties xmi:id="_yAQT8OUiEem6X9JuLcITng" position="2.0,-11.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_x5pVo-UiEem6X9JuLcITng" aggregationKind="NONE" name="subjectRequest">
+      <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_x5m5YOUiEem6X9JuLcITng"/>
+      <visualProperties xmi:id="_yAPs4OUiEem6X9JuLcITng" position="-118.0,38.0"/>
+      <visibility xmi:id="_x5pVpOUiEem6X9JuLcITng" label="+"/>
+      <cardinality xmi:id="_x5pVpeUiEem6X9JuLcITng" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_x5pVpuUiEem6X9JuLcITng" aggregationKind="NONE" name="subject" navigable="true">
+      <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_x5ngceUiEem6X9JuLcITng"/>
+      <visualProperties xmi:id="_yAQT8eUiEem6X9JuLcITng" position="41.0,-56.0"/>
+      <visibility xmi:id="_x5pVp-UiEem6X9JuLcITng" label="+"/>
+      <cardinality xmi:id="_x5pVqOUiEem6X9JuLcITng" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_AgLhMOUjEem6X9JuLcITng" sourceAnchor="117.0,164.0" targetAnchor="0.0,91.0" target="_yohkYOSfEemKQfzNI-tWpw" source="_CJbFoOTQEemKQfzNI-tWpw">
+    <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_AgDlYOUjEem6X9JuLcITng"/>
+    <visualProperties xmi:id="_AgLhMeUjEem6X9JuLcITng"/>
+    <bendpoints xmi:id="_nJgcIuWLEemgm7lcvLLipQ" sourceX="1" sourceY="135" targetX="-456" targetY="-3"/>
+    <nameVisual xmi:id="_AgLhMuUjEem6X9JuLcITng" text="">
+      <visualProperties xmi:id="_AlqeIeUjEem6X9JuLcITng" position="221.0,2.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_AgLhM-UjEem6X9JuLcITng" aggregationKind="NONE" name="tutorApplicant">
+      <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_AgEMcOUjEem6X9JuLcITng"/>
+      <visualProperties xmi:id="_AlqeIOUjEem6X9JuLcITng" position="-114.0,55.0"/>
+      <visibility xmi:id="_AgLhNOUjEem6X9JuLcITng" label="+"/>
+      <cardinality xmi:id="_AgLhNeUjEem6X9JuLcITng" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_AgLhNuUjEem6X9JuLcITng" aggregationKind="NONE" name="subject" navigable="true">
+      <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_AgEzgOUjEem6X9JuLcITng"/>
+      <visualProperties xmi:id="_AlqeIuUjEem6X9JuLcITng" position="-113.0,2.0"/>
+      <visibility xmi:id="_AgLhN-UjEem6X9JuLcITng" label="+"/>
+      <cardinality xmi:id="_AgLhOOUjEem6X9JuLcITng" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_iAfPIOUjEem6X9JuLcITng" sourceAnchor="183.0,40.0" targetAnchor="99.0,231.0" target="_7uWHUOTJEemKQfzNI-tWpw" source="_OJfeQOUdEem6X9JuLcITng">
+    <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_iAcy4OUjEem6X9JuLcITng"/>
+    <visualProperties xmi:id="_iAfPIeUjEem6X9JuLcITng"/>
+    <bendpoints xmi:id="_nJf1EOWLEemgm7lcvLLipQ" sourceX="161" sourceY="1" targetX="-1061" targetY="83"/>
+    <bendpoints xmi:id="_nJf1EeWLEemgm7lcvLLipQ" sourceX="161" sourceY="291" targetX="-1061" targetY="373"/>
+    <bendpoints xmi:id="_nJf1EuWLEemgm7lcvLLipQ" sourceX="1222" sourceY="292" targetY="374"/>
+    <nameVisual xmi:id="_iAfPIuUjEem6X9JuLcITng" text="">
+      <visualProperties xmi:id="_iFbZgOUjEem6X9JuLcITng" position="523.0,-24.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_iAfPI-UjEem6X9JuLcITng" aggregationKind="NONE" name="classroom" navigable="true">
+      <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_iAcy4eUjEem6X9JuLcITng"/>
+      <visualProperties xmi:id="_iFaycOUjEem6X9JuLcITng" position="40.0,1.0"/>
+      <visibility xmi:id="_iAfPJOUjEem6X9JuLcITng" label="+"/>
+      <cardinality xmi:id="_iAfPJeUjEem6X9JuLcITng" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_iAfPJuUjEem6X9JuLcITng" aggregationKind="NONE" name="offering" navigable="true">
+      <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_iAcy5OUjEem6X9JuLcITng"/>
+      <visualProperties xmi:id="_iFbZgeUjEem6X9JuLcITng" position="2.0,46.0"/>
+      <visibility xmi:id="_iAfPJ-UjEem6X9JuLcITng" label="+"/>
+      <cardinality xmi:id="_iAfPKOUjEem6X9JuLcITng" label="*" max="-1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="__-O_0OUkEem6X9JuLcITng" sourceAnchor="63.0,231.0" targetAnchor="198.0,91.0" target="_LefzceUkEem6X9JuLcITng" source="_7uWHUOTJEemKQfzNI-tWpw">
+    <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#__-L8gOUkEem6X9JuLcITng"/>
+    <visualProperties xmi:id="__-O_0eUkEem6X9JuLcITng"/>
+    <bendpoints xmi:id="_nJU18uWLEemgm7lcvLLipQ" sourceX="-19" sourceY="99" targetX="696" targetY="1"/>
+    <nameVisual xmi:id="__-O_0uUkEem6X9JuLcITng" text="">
+      <visualProperties xmi:id="_ADRQ0eUlEem6X9JuLcITng" position="-366.0,2.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="__-O_0-UkEem6X9JuLcITng" aggregationKind="NONE" name="offering">
+      <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#__-MjkOUkEem6X9JuLcITng"/>
+      <visualProperties xmi:id="_ADRQ0OUlEem6X9JuLcITng" position="-70.0,6.0"/>
+      <visibility xmi:id="__-O_1OUkEem6X9JuLcITng" label="+"/>
+      <cardinality xmi:id="__-O_1eUkEem6X9JuLcITng" label="*" max="-1"/>
+    </sourceRole>
+    <targetRole xmi:id="__-O_1uUkEem6X9JuLcITng" aggregationKind="NONE" name="classTime" navigable="true">
+      <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#__-Mjk-UkEem6X9JuLcITng"/>
+      <visualProperties xmi:id="_ADRQ0uUlEem6X9JuLcITng" position="64.0,2.0000000000001137"/>
+      <visibility xmi:id="__-O_1-UkEem6X9JuLcITng" label="+"/>
+      <cardinality xmi:id="__-O_2OUkEem6X9JuLcITng" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ContainmentVisual" xmi:id="_mQz5MOVBEemg0sXdMfRgag" sourceAnchor="72.0,16.0" targetAnchor="69.0,73.0" enclosingItem="_hVcLYeVBEemg0sXdMfRgag" containedItem="_iaRsgeVBEemg0sXdMfRgag"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ContainmentVisual" xmi:id="_meizMOVBEemg0sXdMfRgag" sourceAnchor="69.0,16.0" targetAnchor="78.0,78.0" enclosingItem="_gW9J4OVBEemg0sXdMfRgag" containedItem="_hVcLYeVBEemg0sXdMfRgag"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ContainmentVisual" xmi:id="_muAykOVBEemg0sXdMfRgag" sourceAnchor="82.0,16.0" targetAnchor="77.0,71.0" enclosingItem="_dKRLcOVBEemg0sXdMfRgag" containedItem="_gW9J4OVBEemg0sXdMfRgag"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ContainmentVisual" xmi:id="_q6sOYOVBEemg0sXdMfRgag" sourceAnchor="53.0,16.0" targetAnchor="80.0,76.0" enclosingItem="_iaRsgeVBEemg0sXdMfRgag" containedItem="_o9DdAOVBEemg0sXdMfRgag"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ContainmentVisual" xmi:id="_T5jjIOVDEemg0sXdMfRgag" sourceAnchor="113.0,0.0" targetAnchor="70.0,102.0" enclosingItem="_o9DdAOVBEemg0sXdMfRgag" containedItem="_OrBLgOSwEemKQfzNI-tWpw">
+    <bendpoints xmi:id="_nJlUoOWLEemgm7lcvLLipQ" sourceY="-45" targetX="30" targetY="38"/>
+    <bendpoints xmi:id="_nJlUoeWLEemgm7lcvLLipQ" sourceX="-30" sourceY="-45" targetY="38"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ContainmentVisual" xmi:id="_rk_dsOVDEemg0sXdMfRgag" sourceAnchor="72.0,0.0" targetAnchor="70.0,102.0" enclosingItem="_o9DdAOVBEemg0sXdMfRgag" containedItem="_yLpbIOSfEemKQfzNI-tWpw">
+    <bendpoints xmi:id="_nJZucuWLEemgm7lcvLLipQ" sourceY="-367" targetX="-617" targetY="38"/>
+    <bendpoints xmi:id="_nJZuc-WLEemgm7lcvLLipQ" sourceX="617" sourceY="-367" targetY="38"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ContainmentVisual" xmi:id="_CxbvIOVEEemg0sXdMfRgag" sourceAnchor="127.0,0.0" targetAnchor="70.0,102.0" enclosingItem="_o9DdAOVBEemg0sXdMfRgag" containedItem="_wJiq8OUXEem6X9JuLcITng">
+    <bendpoints xmi:id="_nJcKsOWLEemgm7lcvLLipQ" sourceY="-30" targetX="-405" targetY="38"/>
+    <bendpoints xmi:id="_nJcKseWLEemgm7lcvLLipQ" sourceX="405" sourceY="-30" targetY="38"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ContainmentVisual" xmi:id="_DFukIOVEEemg0sXdMfRgag" sourceAnchor="83.0,0.0" targetAnchor="70.0,102.0" enclosingItem="_o9DdAOVBEemg0sXdMfRgag" containedItem="_wiG-wOTREemKQfzNI-tWpw">
+    <bendpoints xmi:id="_nJSZsOWLEemgm7lcvLLipQ" sourceY="-19" targetX="-407" targetY="259"/>
+    <bendpoints xmi:id="_nJSZseWLEemgm7lcvLLipQ" sourceX="-318" sourceY="-19" targetX="-725" targetY="259"/>
+    <bendpoints xmi:id="_nJSZsuWLEemgm7lcvLLipQ" sourceX="-318" sourceY="-240" targetX="-725" targetY="38"/>
+    <bendpoints xmi:id="_nJSZs-WLEemgm7lcvLLipQ" sourceX="407" sourceY="-240" targetY="38"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ContainmentVisual" xmi:id="_E9hMMOVEEemg0sXdMfRgag" sourceAnchor="72.0,0.0" targetAnchor="70.0,102.0" enclosingItem="_o9DdAOVBEemg0sXdMfRgag" containedItem="_-HP-wOTREemKQfzNI-tWpw">
+    <bendpoints xmi:id="_nJkGg-WLEemgm7lcvLLipQ" sourceY="-247" targetX="-118" targetY="38"/>
+    <bendpoints xmi:id="_nJktkOWLEemgm7lcvLLipQ" sourceX="118" sourceY="-247" targetY="38"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ContainmentVisual" xmi:id="_QlsJMOVEEemg0sXdMfRgag" sourceAnchor="58.0,164.0" targetAnchor="70.0,102.0" enclosingItem="_o9DdAOVBEemg0sXdMfRgag" containedItem="_CJbFoOTQEemKQfzNI-tWpw">
+    <bendpoints xmi:id="_nJjfceWLEemgm7lcvLLipQ" sourceY="677" targetX="-280" targetY="1355"/>
+    <bendpoints xmi:id="_nJjfcuWLEemgm7lcvLLipQ" sourceX="-535" sourceY="677" targetX="-815" targetY="1355"/>
+    <bendpoints xmi:id="_nJjfc-WLEemgm7lcvLLipQ" sourceX="-535" sourceY="-640" targetX="-815" targetY="38"/>
+    <bendpoints xmi:id="_nJjfdOWLEemgm7lcvLLipQ" sourceX="280" sourceY="-640" targetY="38"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ContainmentVisual" xmi:id="_Q2OfkOVEEemg0sXdMfRgag" sourceAnchor="198.0,80.0" targetAnchor="70.0,102.0" enclosingItem="_o9DdAOVBEemg0sXdMfRgag" containedItem="_ZcM2IOSwEemKQfzNI-tWpw">
+    <bendpoints xmi:id="_nJkGgOWLEemgm7lcvLLipQ" sourceX="54" targetX="151" targetY="600"/>
+    <bendpoints xmi:id="_nJkGgeWLEemgm7lcvLLipQ" sourceX="54" sourceY="-562" targetX="151" targetY="38"/>
+    <bendpoints xmi:id="_nJkGguWLEemgm7lcvLLipQ" sourceX="-97" sourceY="-562" targetY="38"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ContainmentVisual" xmi:id="_RsCGMOVEEemg0sXdMfRgag" sourceAnchor="131.0,63.0" targetAnchor="70.0,102.0" enclosingItem="_o9DdAOVBEemg0sXdMfRgag" containedItem="_g9dWwOUhEem6X9JuLcITng">
+    <bendpoints xmi:id="_nJUO4OWLEemgm7lcvLLipQ" sourceX="242" targetX="658" targetY="456"/>
+    <bendpoints xmi:id="_nJU18OWLEemgm7lcvLLipQ" sourceX="242" sourceY="-418" targetX="658" targetY="38"/>
+    <bendpoints xmi:id="_nJU18eWLEemgm7lcvLLipQ" sourceX="-416" sourceY="-418" targetY="38"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ContainmentVisual" xmi:id="_R-iygOVEEemg0sXdMfRgag" sourceAnchor="130.0,0.0" targetAnchor="70.0,102.0" enclosingItem="_o9DdAOVBEemg0sXdMfRgag" containedItem="_XQqLoOSwEemKQfzNI-tWpw">
+    <bendpoints xmi:id="_nJRLkOWLEemgm7lcvLLipQ" sourceY="-229" targetX="572" targetY="38"/>
+    <bendpoints xmi:id="_nJRLkeWLEemgm7lcvLLipQ" sourceX="-572" sourceY="-229" targetY="38"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ContainmentVisual" xmi:id="_TQuzIOVEEemg0sXdMfRgag" sourceAnchor="129.0,0.0" targetAnchor="70.0,102.0" enclosingItem="_o9DdAOVBEemg0sXdMfRgag" containedItem="_7uWHUOTJEemKQfzNI-tWpw">
+    <bendpoints xmi:id="_nJVdAOWLEemgm7lcvLLipQ" sourceY="-585" targetX="841" targetY="38"/>
+    <bendpoints xmi:id="_nJVdAeWLEemgm7lcvLLipQ" sourceX="-841" sourceY="-585" targetY="38"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ContainmentVisual" xmi:id="_TfwGkOVEEemg0sXdMfRgag" sourceAnchor="0.0,91.0" targetAnchor="70.0,102.0" enclosingItem="_o9DdAOVBEemg0sXdMfRgag" containedItem="_yohkYOSfEemKQfzNI-tWpw">
+    <bendpoints xmi:id="_nJa8kOWLEemgm7lcvLLipQ" sourceX="-432" targetX="-196" targetY="816"/>
+    <bendpoints xmi:id="_nJa8keWLEemgm7lcvLLipQ" sourceX="-432" sourceY="449" targetX="-196" targetY="1265"/>
+    <bendpoints xmi:id="_nJa8kuWLEemgm7lcvLLipQ" sourceX="750" sourceY="449" targetX="986" targetY="1265"/>
+    <bendpoints xmi:id="_nJa8k-WLEemgm7lcvLLipQ" sourceX="750" sourceY="-778" targetX="986" targetY="38"/>
+    <bendpoints xmi:id="_nJa8lOWLEemgm7lcvLLipQ" sourceX="-236" sourceY="-778" targetY="38"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ContainmentVisual" xmi:id="_d2JSoOVEEemg0sXdMfRgag" sourceAnchor="80.0,86.0" targetAnchor="70.0,102.0" enclosingItem="_o9DdAOVBEemg0sXdMfRgag" containedItem="_U8sQYOUdEem6X9JuLcITng">
+    <bendpoints xmi:id="_nJdY0uWLEemgm7lcvLLipQ" sourceY="139" targetX="-439" targetY="1325"/>
+    <bendpoints xmi:id="_nJdY0-WLEemgm7lcvLLipQ" sourceX="1485" sourceY="139" targetX="1046" targetY="1325"/>
+    <bendpoints xmi:id="_nJd_4OWLEemgm7lcvLLipQ" sourceX="1485" sourceY="-1148" targetX="1046" targetY="38"/>
+    <bendpoints xmi:id="_nJd_4eWLEemgm7lcvLLipQ" sourceX="439" sourceY="-1148" targetY="38"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ContainmentVisual" xmi:id="_eE8joOVEEemg0sXdMfRgag" sourceAnchor="0.0,47.0" targetAnchor="70.0,102.0" enclosingItem="_o9DdAOVBEemg0sXdMfRgag" containedItem="_UIgaYeUdEem6X9JuLcITng">
+    <bendpoints xmi:id="_nJem8eWLEemgm7lcvLLipQ" sourceX="-45" targetX="-755" targetY="1143"/>
+    <bendpoints xmi:id="_nJem8uWLEemgm7lcvLLipQ" sourceX="-45" sourceY="-1105" targetX="-755" targetY="38"/>
+    <bendpoints xmi:id="_nJem8-WLEemgm7lcvLLipQ" sourceX="710" sourceY="-1105" targetY="38"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ContainmentVisual" xmi:id="_fEq7QOVEEemg0sXdMfRgag" sourceAnchor="60.0,86.0" targetAnchor="70.0,102.0" enclosingItem="_o9DdAOVBEemg0sXdMfRgag" containedItem="_OJfeQOUdEem6X9JuLcITng">
+    <bendpoints xmi:id="_nJf1E-WLEemgm7lcvLLipQ" sourceY="343" targetX="-534" targetY="1325"/>
+    <bendpoints xmi:id="_nJf1FOWLEemgm7lcvLLipQ" sourceX="-251" sourceY="343" targetX="-785" targetY="1325"/>
+    <bendpoints xmi:id="_nJgcIOWLEemgm7lcvLLipQ" sourceX="-251" sourceY="-944" targetX="-785" targetY="38"/>
+    <bendpoints xmi:id="_nJgcIeWLEemgm7lcvLLipQ" sourceX="534" sourceY="-944" targetY="38"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ContainmentVisual" xmi:id="_gNasAOVEEemg0sXdMfRgag" sourceAnchor="198.0,88.0" targetAnchor="70.0,102.0" enclosingItem="_o9DdAOVBEemg0sXdMfRgag" containedItem="_LefzceUkEem6X9JuLcITng">
+    <bendpoints xmi:id="_nJem9OWLEemgm7lcvLLipQ" sourceX="563" targetX="623" targetY="949"/>
+    <bendpoints xmi:id="_nJfOAOWLEemgm7lcvLLipQ" sourceX="563" sourceY="-384" targetX="623" targetY="565"/>
+    <bendpoints xmi:id="_nJfOAeWLEemgm7lcvLLipQ" sourceX="667" sourceY="-384" targetX="727" targetY="565"/>
+    <bendpoints xmi:id="_nJfOAuWLEemgm7lcvLLipQ" sourceX="667" sourceY="-911" targetX="727" targetY="38"/>
+    <bendpoints xmi:id="_nJfOA-WLEemgm7lcvLLipQ" sourceX="-60" sourceY="-911" targetY="38"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ContainmentVisual" xmi:id="_gevskOVEEemg0sXdMfRgag" sourceAnchor="72.0,75.0" targetAnchor="70.0,102.0" enclosingItem="_o9DdAOVBEemg0sXdMfRgag" containedItem="_U_b7AOUgEem6X9JuLcITng">
+    <bendpoints xmi:id="_nJWEEOWLEemgm7lcvLLipQ" sourceY="30" targetX="-76" targetY="1205"/>
+    <bendpoints xmi:id="_nJWrIOWLEemgm7lcvLLipQ" sourceX="1002" sourceY="30" targetX="926" targetY="1205"/>
+    <bendpoints xmi:id="_nJWrIeWLEemgm7lcvLLipQ" sourceX="1002" sourceY="-1137" targetX="926" targetY="38"/>
+    <bendpoints xmi:id="_nJWrIuWLEemgm7lcvLLipQ" sourceX="76" sourceY="-1137" targetY="38"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ContainmentVisual" xmi:id="_hTxQEOVEEemg0sXdMfRgag" sourceAnchor="0.0,16.0" targetAnchor="70.0,102.0" enclosingItem="_o9DdAOVBEemg0sXdMfRgag" containedItem="_CTfZQOUgEem6X9JuLcITng">
+    <bendpoints xmi:id="_nJXSMeWLEemgm7lcvLLipQ" sourceX="-369" targetX="-166" targetY="1081"/>
+    <bendpoints xmi:id="_nJXSMuWLEemgm7lcvLLipQ" sourceX="-369" sourceY="154" targetX="-166" targetY="1235"/>
+    <bendpoints xmi:id="_nJXSM-WLEemgm7lcvLLipQ" sourceX="753" sourceY="154" targetX="956" targetY="1235"/>
+    <bendpoints xmi:id="_nJXSNOWLEemgm7lcvLLipQ" sourceX="753" sourceY="-1043" targetX="956" targetY="38"/>
+    <bendpoints xmi:id="_nJXSNeWLEemgm7lcvLLipQ" sourceX="-203" sourceY="-1043" targetY="38"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ContainmentVisual" xmi:id="_hh5LoOVEEemg0sXdMfRgag" sourceAnchor="72.0,72.0" targetAnchor="70.0,102.0" enclosingItem="_o9DdAOVBEemg0sXdMfRgag" containedItem="_WF5z0OUgEem6X9JuLcITng">
+    <bendpoints xmi:id="_nJcxwOWLEemgm7lcvLLipQ" sourceY="150" targetX="442" targetY="1295"/>
+    <bendpoints xmi:id="_nJcxweWLEemgm7lcvLLipQ" sourceX="574" sourceY="150" targetX="1016" targetY="1295"/>
+    <bendpoints xmi:id="_nJcxwuWLEemgm7lcvLLipQ" sourceX="574" sourceY="-1107" targetX="1016" targetY="38"/>
+    <bendpoints xmi:id="_nJcxw-WLEemgm7lcvLLipQ" sourceX="-442" sourceY="-1107" targetY="38"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ContainmentVisual" xmi:id="_i28TAOVEEemg0sXdMfRgag" sourceAnchor="148.0,0.0" targetAnchor="70.0,102.0" enclosingItem="_o9DdAOVBEemg0sXdMfRgag" containedItem="_Ym0RYeUgEem6X9JuLcITng">
+    <bendpoints xmi:id="_nJYgUOWLEemgm7lcvLLipQ" sourceY="-1028" targetX="688" targetY="38"/>
+    <bendpoints xmi:id="_nJYgUeWLEemgm7lcvLLipQ" sourceX="-688" sourceY="-1028" targetY="38"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ContainmentVisual" xmi:id="_AbIwsOVFEemg0sXdMfRgag" sourceAnchor="92.0,0.0" targetAnchor="70.0,102.0" enclosingItem="_o9DdAOVBEemg0sXdMfRgag" containedItem="_Ace0gOVFEemg0sXdMfRgag">
+    <bendpoints xmi:id="_nJbjoOWLEemgm7lcvLLipQ" sourceY="-40" targetX="359" targetY="38"/>
+    <bendpoints xmi:id="_nJbjoeWLEemgm7lcvLLipQ" sourceX="-359" sourceY="-40" targetY="38"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_TfhYEOV7Eem-8IV7cih3QA" sourceAnchor="60.0,161.0" targetAnchor="97.0,0.0" target="_LefzceUkEem6X9JuLcITng" source="_ZcM2IOSwEemKQfzNI-tWpw">
+    <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_TeonQOV7Eem-8IV7cih3QA"/>
+    <visualProperties xmi:id="_TfimMOV7Eem-8IV7cih3QA"/>
+    <nameVisual xmi:id="_TfjNQOV7Eem-8IV7cih3QA" text="">
+      <visualProperties xmi:id="_Tt5yUOV7Eem-8IV7cih3QA" position="2.0,-20.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_TfjNQeV7Eem-8IV7cih3QA" aggregationKind="NONE" name="registeredTutor" navigable="true">
+      <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_Te00gOV7Eem-8IV7cih3QA"/>
+      <visualProperties xmi:id="_Tt4kMOV7Eem-8IV7cih3QA" position="-159.0,1.0"/>
+      <visibility xmi:id="_Tfj0UOV7Eem-8IV7cih3QA" label="+"/>
+      <cardinality xmi:id="_Tfj0UeV7Eem-8IV7cih3QA" label="*" max="-1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Tfj0UuV7Eem-8IV7cih3QA" aggregationKind="NONE" name="avaliableSession" navigable="true">
+      <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_TfNPAeV7Eem-8IV7cih3QA"/>
+      <visualProperties xmi:id="_Tt6ZYOV7Eem-8IV7cih3QA" position="-127.0,-118.0"/>
+      <visibility xmi:id="_Tfj0U-V7Eem-8IV7cih3QA" label="+"/>
+      <cardinality xmi:id="_Tfj0VOV7Eem-8IV7cih3QA" label="*" max="-1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_t7fgkOV7Eem-8IV7cih3QA" sourceAnchor="69.0,0.0" targetAnchor="48.0,163.0" target="_yLpbIOSfEemKQfzNI-tWpw" source="_UIgaYeUdEem6X9JuLcITng">
+    <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_t7cdQOV7Eem-8IV7cih3QA"/>
+    <visualProperties xmi:id="_t7fgkeV7Eem-8IV7cih3QA"/>
+    <nameVisual xmi:id="_t7fgkuV7Eem-8IV7cih3QA" text="">
+      <visualProperties xmi:id="_uIL4wOV7Eem-8IV7cih3QA" position="2.0,-1.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_t7fgk-V7Eem-8IV7cih3QA" aggregationKind="NONE" name="bigRoom" navigable="true">
+      <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_t7dEUOV7Eem-8IV7cih3QA"/>
+      <visualProperties xmi:id="_uILRsOV7Eem-8IV7cih3QA" position="-80.0,-104.0"/>
+      <visibility xmi:id="_t7fglOV7Eem-8IV7cih3QA" label="+"/>
+      <cardinality xmi:id="_t7fgleV7Eem-8IV7cih3QA" label="*" max="-1"/>
+    </sourceRole>
+    <targetRole xmi:id="_t7fgluV7Eem-8IV7cih3QA" aggregationKind="NONE" name="manager" navigable="true">
+      <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_t7dEU-V7Eem-8IV7cih3QA"/>
+      <visualProperties xmi:id="_uIL4weV7Eem-8IV7cih3QA" position="1.9999999999999432,48.0"/>
+      <visibility xmi:id="_t7fgl-V7Eem-8IV7cih3QA" label="+"/>
+      <cardinality xmi:id="_t7fgmOV7Eem-8IV7cih3QA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_XQqLoOSwEemKQfzNI-tWpw" containment="_R-iygOVEEemg0sXdMfRgag" name="Student" package="_o9DdAOVBEemg0sXdMfRgag" associationsIn="_k7ddYOUhEem6X9JuLcITng" associationsOut="_HZXSEOTMEemKQfzNI-tWpw" generalizations="_X8syQOSwEemKQfzNI-tWpw">
+    <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_XQpkkOSwEemKQfzNI-tWpw"/>
+    <visualProperties xmi:id="_XQqLoeSwEemKQfzNI-tWpw" position="747.0,63.0" size="201.0,86.0"/>
+    <stereotypes xmi:id="_N1-IsOVGEembMvobOCNd4Q" name="StyledElement">
+      <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_NvUuIOVGEembMvobOCNd4Q"/>
+    </stereotypes>
+    <visibility xmi:id="_XQqLouSwEemKQfzNI-tWpw" label="+"/>
+    <attributes xmi:id="_xwWNIOTJEemKQfzNI-tWpw" name="studentID">
+      <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_xvmmQOTJEemKQfzNI-tWpw"/>
+      <visibility xmi:id="_xwWNIeTJEemKQfzNI-tWpw" label="+"/>
+      <cardinality xmi:id="_xwWNIuTJEemKQfzNI-tWpw" label="1" max="1" min="1"/>
+      <type xmi:id="_xwWNI-TJEemKQfzNI-tWpw" name="Integer">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_HZjfUOTMEemKQfzNI-tWpw" name="coursesTaken">
+      <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_HYnEIOTMEemKQfzNI-tWpw"/>
+      <visibility xmi:id="_HZjfUeTMEemKQfzNI-tWpw" label="+"/>
+      <cardinality xmi:id="_HZjfUuTMEemKQfzNI-tWpw" label="*" max="-1"/>
+      <type xmi:id="_HZjfU-TMEemKQfzNI-tWpw" name="Offering">
+        <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_7uU5MOTJEemKQfzNI-tWpw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_k7eEcOUhEem6X9JuLcITng" name="subjectRequest">
+      <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_k7aaEeUhEem6X9JuLcITng"/>
+      <visibility xmi:id="_k7eEceUhEem6X9JuLcITng" label="+"/>
+      <cardinality xmi:id="_k7eEcuUhEem6X9JuLcITng" label="*" max="-1"/>
+      <type xmi:id="_k7eEc-UhEem6X9JuLcITng" name="SubjectRequest">
+        <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_g9cvsOUhEem6X9JuLcITng"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_wiG-wOTREemKQfzNI-tWpw" containment="_DFukIOVEEemg0sXdMfRgag" name="Tutor" package="_o9DdAOVBEemg0sXdMfRgag" associationsOut="_SXwqkOTSEemKQfzNI-tWpw" generalizations="_yGpToOTREemKQfzNI-tWpw">
+    <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_wiGXsOTREemKQfzNI-tWpw"/>
+    <visualProperties xmi:id="_wiG-weTREemKQfzNI-tWpw" position="-185.0,74.0" size="166.0,83.0"/>
+    <stereotypes xmi:id="_N30i0OVGEembMvobOCNd4Q" name="StyledElement">
+      <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_Nvd4EOVGEembMvobOCNd4Q"/>
+    </stereotypes>
+    <visibility xmi:id="_wiG-wuTREemKQfzNI-tWpw" label="+"/>
+    <attributes xmi:id="_SX3_UOTSEemKQfzNI-tWpw" name="tutorRole">
+      <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_SXpV0eTSEemKQfzNI-tWpw"/>
+      <visibility xmi:id="_SX3_UeTSEemKQfzNI-tWpw" label="+"/>
+      <cardinality xmi:id="_SX3_UuTSEemKQfzNI-tWpw" label="1..2" max="2" min="1"/>
+      <type xmi:id="_SX3_U-TSEemKQfzNI-tWpw" name="TutorRole">
+        <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_-HPXsOTREemKQfzNI-tWpw"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_g9dWwOUhEem6X9JuLcITng" containment="_RsCGMOVEEemg0sXdMfRgag" name="SubjectRequest" package="_o9DdAOVBEemg0sXdMfRgag" associationsOut="_k7ddYOUhEem6X9JuLcITng _l08qIOUhEem6X9JuLcITng _x5pVoOUiEem6X9JuLcITng">
+    <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_g9cvsOUhEem6X9JuLcITng"/>
+    <visualProperties xmi:id="_g9dWweUhEem6X9JuLcITng" position="590.0,189.0" size="131.0,126.0"/>
+    <stereotypes xmi:id="_N3XP0OVGEembMvobOCNd4Q" name="StyledElement">
+      <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_Nva0wOVGEembMvobOCNd4Q"/>
+    </stereotypes>
+    <visibility xmi:id="_g9dWwuUhEem6X9JuLcITng" label="+"/>
+    <attributes xmi:id="_k7ergOUhEem6X9JuLcITng" name="student">
+      <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_k7bBIuUhEem6X9JuLcITng"/>
+      <visibility xmi:id="_k7ergeUhEem6X9JuLcITng" label="+"/>
+      <cardinality xmi:id="_k7erguUhEem6X9JuLcITng" label="*" max="-1"/>
+      <type xmi:id="_k7erg-UhEem6X9JuLcITng" name="Student">
+        <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_XQpkkOSwEemKQfzNI-tWpw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_l094QOUhEem6X9JuLcITng" name="manager">
+      <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_l0608-UhEem6X9JuLcITng"/>
+      <visibility xmi:id="_l094QeUhEem6X9JuLcITng" label="+"/>
+      <cardinality xmi:id="_l094QuUhEem6X9JuLcITng" label="1" max="1" min="1"/>
+      <type xmi:id="_l094Q-UhEem6X9JuLcITng" name="Manager">
+        <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_yJ_OQOSfEemKQfzNI-tWpw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_x5p8sOUiEem6X9JuLcITng" name="subject">
+      <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_x5ngceUiEem6X9JuLcITng"/>
+      <visibility xmi:id="_x5p8seUiEem6X9JuLcITng" label="+"/>
+      <cardinality xmi:id="_x5p8suUiEem6X9JuLcITng" label="1" max="1" min="1"/>
+      <type xmi:id="_x5p8s-UiEem6X9JuLcITng" name="Subject">
+        <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_yogWQOSfEemKQfzNI-tWpw"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_7uWHUOTJEemKQfzNI-tWpw" containment="_TQuzIOVEEemg0sXdMfRgag" name="Offering" package="_o9DdAOVBEemg0sXdMfRgag" associationsIn="_HZXSEOTMEemKQfzNI-tWpw _aI4sQOTMEemKQfzNI-tWpw _qAVGEOTMEemKQfzNI-tWpw _iAfPIOUjEem6X9JuLcITng" associationsOut="__-O_0OUkEem6X9JuLcITng">
+    <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_7uU5MOTJEemKQfzNI-tWpw"/>
+    <visualProperties xmi:id="_7uWHUeTJEemKQfzNI-tWpw" position="1017.0,419.0" size="199.0,231.0"/>
+    <stereotypes xmi:id="_N4kwwOVGEembMvobOCNd4Q" name="StyledElement">
+      <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_NvjXoOVGEembMvobOCNd4Q"/>
+    </stereotypes>
+    <visibility xmi:id="_7uWHUuTJEemKQfzNI-tWpw" label="+"/>
+    <attributes xmi:id="_OTD_sOTKEemKQfzNI-tWpw" name="offeringID">
+      <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_OTCxkOTKEemKQfzNI-tWpw"/>
+      <visibility xmi:id="_OTD_seTKEemKQfzNI-tWpw" label="+"/>
+      <cardinality xmi:id="_OTD_suTKEemKQfzNI-tWpw" label="1" max="1" min="1"/>
+      <type xmi:id="_OTD_s-TKEemKQfzNI-tWpw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_HZhqIOTMEemKQfzNI-tWpw" name="studentsEnrolled">
+      <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_HYYaoOTMEemKQfzNI-tWpw"/>
+      <visibility xmi:id="_HZhqIeTMEemKQfzNI-tWpw" label="+"/>
+      <cardinality xmi:id="_HZhqIuTMEemKQfzNI-tWpw" label="*" max="-1"/>
+      <type xmi:id="_HZhqI-TMEemKQfzNI-tWpw" name="Student">
+        <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_XQpkkOSwEemKQfzNI-tWpw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_aI89sOTMEemKQfzNI-tWpw" name="offeringTutors">
+      <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_aInmgOTMEemKQfzNI-tWpw"/>
+      <visibility xmi:id="_aI89seTMEemKQfzNI-tWpw" label="+"/>
+      <cardinality xmi:id="_aI89suTMEemKQfzNI-tWpw" label="*" max="-1"/>
+      <type xmi:id="_aI89s-TMEemKQfzNI-tWpw" name="RegisteredTutor">
+        <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_ZcMPEOSwEemKQfzNI-tWpw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_qAWUMOTMEemKQfzNI-tWpw" name="subject">
+      <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_qAPmgeTMEemKQfzNI-tWpw"/>
+      <visibility xmi:id="_qAWUMeTMEemKQfzNI-tWpw" label="+"/>
+      <cardinality xmi:id="_qAWUMuTMEemKQfzNI-tWpw" label="1" max="1" min="1"/>
+      <type xmi:id="_qAWUM-TMEemKQfzNI-tWpw" name="Subject">
+        <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_yogWQOSfEemKQfzNI-tWpw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_JxRvkOUXEem6X9JuLcITng" name="term">
+      <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_Jw58IOUXEem6X9JuLcITng"/>
+      <visibility xmi:id="_JxRvkeUXEem6X9JuLcITng" label="+"/>
+      <cardinality xmi:id="_JxRvkuUXEem6X9JuLcITng" label="1" max="1" min="1"/>
+      <type xmi:id="_JxRvk-UXEem6X9JuLcITng" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_2GtlQOUdEem6X9JuLcITng" name="price">
+      <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_2Gs-MOUdEem6X9JuLcITng"/>
+      <visibility xmi:id="_2GtlQeUdEem6X9JuLcITng" label="+"/>
+      <cardinality xmi:id="_2GtlQuUdEem6X9JuLcITng" label="1" max="1" min="1"/>
+      <type xmi:id="_2GtlQ-UdEem6X9JuLcITng" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_iAfPKeUjEem6X9JuLcITng" name="classroom">
+      <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_iAcy4eUjEem6X9JuLcITng"/>
+      <visibility xmi:id="_iAfPKuUjEem6X9JuLcITng" label="+"/>
+      <cardinality xmi:id="_iAfPK-UjEem6X9JuLcITng" label="1" max="1" min="1"/>
+      <type xmi:id="_iAfPLOUjEem6X9JuLcITng" name="Classroom">
+        <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_OJeQIOUdEem6X9JuLcITng"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="__-O_2eUkEem6X9JuLcITng" name="classTime">
+      <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#__-Mjk-UkEem6X9JuLcITng"/>
+      <visibility xmi:id="__-O_2uUkEem6X9JuLcITng" label="+"/>
+      <cardinality xmi:id="__-O_2-UkEem6X9JuLcITng" label="1" max="1" min="1"/>
+      <type xmi:id="__-O_3OUkEem6X9JuLcITng" name="AvaliableSession">
+        <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_LefzcOUkEem6X9JuLcITng"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_U_b7AOUgEem6X9JuLcITng" containment="_gevskOVEEemg0sXdMfRgag" name="University" package="_o9DdAOVBEemg0sXdMfRgag" associationsOut="_bGh1EOUgEem6X9JuLcITng">
+    <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_U_bT8OUgEem6X9JuLcITng"/>
+    <visualProperties xmi:id="_U_b7AeUgEem6X9JuLcITng" position="157.0,896.0" size="145.0,75.0"/>
+    <stereotypes xmi:id="_N49LQOVGEembMvobOCNd4Q" name="StyledElement">
+      <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_NvqFUOVGEembMvobOCNd4Q"/>
+    </stereotypes>
+    <visibility xmi:id="_U_b7AuUgEem6X9JuLcITng" label="+"/>
+    <attributes xmi:id="_bGjqQOUgEem6X9JuLcITng" name="universityCourse">
+      <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_bGf_5OUgEem6X9JuLcITng"/>
+      <visibility xmi:id="_bGjqQeUgEem6X9JuLcITng" label="+"/>
+      <cardinality xmi:id="_bGjqQuUgEem6X9JuLcITng" label="*" max="-1"/>
+      <type xmi:id="_bGjqQ-UgEem6X9JuLcITng" name="UniversityCourse">
+        <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_CTeyMOUgEem6X9JuLcITng"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_hwxfgOUgEem6X9JuLcITng" name="name">
+      <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_hvrTUOUgEem6X9JuLcITng"/>
+      <visibility xmi:id="_hwyGkOUgEem6X9JuLcITng" label="+"/>
+      <cardinality xmi:id="_hwyGkeUgEem6X9JuLcITng" label="1" max="1" min="1"/>
+      <type xmi:id="_hwyGkuUgEem6X9JuLcITng" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_CTfZQOUgEem6X9JuLcITng" containment="_hTxQEOVEEemg0sXdMfRgag" name="UniversityCourse" package="_o9DdAOVBEemg0sXdMfRgag" associationsIn="_bGh1EOUgEem6X9JuLcITng" generalizations="_rJSuEOUgEem6X9JuLcITng">
+    <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_CTeyMOUgEem6X9JuLcITng"/>
+    <visualProperties xmi:id="_CTfZQeUgEem6X9JuLcITng" position="508.0,861.0" size="145.0,75.0"/>
+    <stereotypes xmi:id="_N5YCAOVGEembMvobOCNd4Q" name="StyledElement">
+      <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_Nvr6gOVGEembMvobOCNd4Q"/>
+    </stereotypes>
+    <visibility xmi:id="_CTfZQuUgEem6X9JuLcITng" label="+"/>
+    <attributes xmi:id="_bGicIOUgEem6X9JuLcITng" name="university">
+      <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_bGf_4eUgEem6X9JuLcITng"/>
+      <visibility xmi:id="_bGicIeUgEem6X9JuLcITng" label="+"/>
+      <cardinality xmi:id="_bGicIuUgEem6X9JuLcITng" label="1" max="1" min="1"/>
+      <type xmi:id="_bGicI-UgEem6X9JuLcITng" name="University">
+        <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_U_bT8OUgEem6X9JuLcITng"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Ym0RYeUgEem6X9JuLcITng" containment="_i28TAOVEEemg0sXdMfRgag" name="HighSchoolCourse" package="_o9DdAOVBEemg0sXdMfRgag" generalizations="_rt_WkOUgEem6X9JuLcITng">
+    <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_Ym0RYOUgEem6X9JuLcITng"/>
+    <visualProperties xmi:id="_Ym0RYuUgEem6X9JuLcITng" position="845.0,862.0" size="170.0,72.0"/>
+    <stereotypes xmi:id="_NysyQOVGEembMvobOCNd4Q" name="StyledElement">
+      <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_NvGrsOVGEembMvobOCNd4Q"/>
+    </stereotypes>
+    <visibility xmi:id="_Ym0RY-UgEem6X9JuLcITng" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_dKRLcOVBEemg0sXdMfRgag" containments="_muAykOVBEemg0sXdMfRgag" name="ca" nestedPackages="_gW9J4OVBEemg0sXdMfRgag">
+    <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_dJ-QgOVBEemg0sXdMfRgag"/>
+    <visualProperties xmi:id="_dKRLceVBEemg0sXdMfRgag" position="207.0,-704.0" size="154.0,73.0"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_gW9J4OVBEemg0sXdMfRgag" containment="_muAykOVBEemg0sXdMfRgag" containments="_meizMOVBEemg0sXdMfRgag" name="mcgill" nestedPackages="_hVcLYeVBEemg0sXdMfRgag" nestingPackage="_dKRLcOVBEemg0sXdMfRgag">
+    <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_gW8i0OVBEemg0sXdMfRgag"/>
+    <visualProperties xmi:id="_gW9J4eVBEemg0sXdMfRgag" position="202.0,-609.0" size="157.0,80.0"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_iaRsgeVBEemg0sXdMfRgag" containment="_mQz5MOVBEemg0sXdMfRgag" containments="_q6sOYOVBEemg0sXdMfRgag" name="tutoringservice" nestedPackages="_o9DdAOVBEemg0sXdMfRgag" nestingPackage="_hVcLYeVBEemg0sXdMfRgag">
+    <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_iaRsgOVBEemg0sXdMfRgag"/>
+    <visualProperties xmi:id="_iaRsguVBEemg0sXdMfRgag" position="208.0,-407.0" size="160.0,78.0"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_yLpbIOSfEemKQfzNI-tWpw" containment="_rk_dsOVDEemg0sXdMfRgag" name="Manager" package="_o9DdAOVBEemg0sXdMfRgag" associationsIn="_l08qIOUhEem6X9JuLcITng _t7fgkOV7Eem-8IV7cih3QA" generalizations="_W1R3MOSwEemKQfzNI-tWpw">
+    <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_yJ_OQOSfEemKQfzNI-tWpw"/>
+    <visualProperties xmi:id="_yLpbIeSfEemKQfzNI-tWpw" position="-384.0,201.0" size="203.0,163.0"/>
+    <stereotypes xmi:id="_NzmxMOVGEembMvobOCNd4Q" name="StyledElement">
+      <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_NvJvAOVGEembMvobOCNd4Q"/>
+    </stereotypes>
+    <visibility xmi:id="_yLpbIuSfEemKQfzNI-tWpw" label="+"/>
+    <attributes xmi:id="_l09RMOUhEem6X9JuLcITng" name="subjectRequest">
+      <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_l0608OUhEem6X9JuLcITng"/>
+      <visibility xmi:id="_l09RMeUhEem6X9JuLcITng" label="+"/>
+      <cardinality xmi:id="_l09RMuUhEem6X9JuLcITng" label="*" max="-1"/>
+      <type xmi:id="_l09RM-UhEem6X9JuLcITng" name="SubjectRequest">
+        <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_g9cvsOUhEem6X9JuLcITng"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_t7gusOV7Eem-8IV7cih3QA" name="bigRoom">
+      <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_t7dEUOV7Eem-8IV7cih3QA"/>
+      <visibility xmi:id="_t7guseV7Eem-8IV7cih3QA" label="+"/>
+      <cardinality xmi:id="_t7gusuV7Eem-8IV7cih3QA" label="*" max="-1"/>
+      <type xmi:id="_t7gus-V7Eem-8IV7cih3QA" name="BigRoom">
+        <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_UIgaYOUdEem6X9JuLcITng"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_yohkYOSfEemKQfzNI-tWpw" containment="_TfwGkOVEEemg0sXdMfRgag" name="Subject" package="_o9DdAOVBEemg0sXdMfRgag" abstractClass="true" associationsIn="_x5pVoOUiEem6X9JuLcITng _AgLhMOUjEem6X9JuLcITng" associationsOut="_KKo7IOSxEemKQfzNI-tWpw _qAVGEOTMEemKQfzNI-tWpw" subclassedBy="_rJSuEOUgEem6X9JuLcITng _rcev0OUgEem6X9JuLcITng _rt_WkOUgEem6X9JuLcITng">
+    <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_yogWQOSfEemKQfzNI-tWpw"/>
+    <visualProperties xmi:id="_yohkYeSfEemKQfzNI-tWpw" position="541.0,521.0" size="334.0,182.0"/>
+    <stereotypes xmi:id="_N2dQ4OVGEembMvobOCNd4Q" name="StyledElement">
+      <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_NvXxcOVGEembMvobOCNd4Q"/>
+    </stereotypes>
+    <visibility xmi:id="_yohkYuSfEemKQfzNI-tWpw" label="+"/>
+    <attributes xmi:id="_KKqwUOSxEemKQfzNI-tWpw" name="subjectTutors">
+      <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_KKl30uSxEemKQfzNI-tWpw"/>
+      <visibility xmi:id="_KKqwUeSxEemKQfzNI-tWpw" label="+"/>
+      <cardinality xmi:id="_KKqwUuSxEemKQfzNI-tWpw" label="*" max="-1"/>
+      <type xmi:id="_KKqwU-SxEemKQfzNI-tWpw" name="RegisteredTutor">
+        <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_ZcMPEOSwEemKQfzNI-tWpw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_194kkOTJEemKQfzNI-tWpw" name="name">
+      <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_19uzkOTJEemKQfzNI-tWpw"/>
+      <visibility xmi:id="_194kkeTJEemKQfzNI-tWpw" label="+"/>
+      <cardinality xmi:id="_194kkuTJEemKQfzNI-tWpw" label="1" max="1" min="1"/>
+      <type xmi:id="_194kk-TJEemKQfzNI-tWpw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_LvwVcOTKEemKQfzNI-tWpw" name="courseID">
+      <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_LvqO0OTKEemKQfzNI-tWpw"/>
+      <visibility xmi:id="_LvwVceTKEemKQfzNI-tWpw" label="+"/>
+      <cardinality xmi:id="_LvwVcuTKEemKQfzNI-tWpw" label="1" max="1" min="1"/>
+      <type xmi:id="_LvwVc-TKEemKQfzNI-tWpw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_qAYJYOTMEemKQfzNI-tWpw" name="offering">
+      <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_qAQ0oOTMEemKQfzNI-tWpw"/>
+      <visibility xmi:id="_qAYJYeTMEemKQfzNI-tWpw" label="+"/>
+      <cardinality xmi:id="_qAYJYuTMEemKQfzNI-tWpw" label="*" max="-1"/>
+      <type xmi:id="_qAYJY-TMEemKQfzNI-tWpw" name="Offering">
+        <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_7uU5MOTJEemKQfzNI-tWpw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_qEMHMOUgEem6X9JuLcITng" name="description">
+      <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_qELgIOUgEem6X9JuLcITng"/>
+      <visibility xmi:id="_qEMHMeUgEem6X9JuLcITng" label="+"/>
+      <cardinality xmi:id="_qEMHMuUgEem6X9JuLcITng" label="1" max="1" min="1"/>
+      <type xmi:id="_qEMHM-UgEem6X9JuLcITng" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_JsVZoOUhEem6X9JuLcITng" name="subjectCategory">
+      <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_JsUykOUhEem6X9JuLcITng"/>
+      <visibility xmi:id="_JsVZoeUhEem6X9JuLcITng" label="+"/>
+      <cardinality xmi:id="_JsVZouUhEem6X9JuLcITng" label="1" max="1" min="1"/>
+      <type xmi:id="_JsVZo-UhEem6X9JuLcITng" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_o9DdAOVBEemg0sXdMfRgag" containment="_q6sOYOVBEemg0sXdMfRgag" containments="_T5jjIOVDEemg0sXdMfRgag _rk_dsOVDEemg0sXdMfRgag _CxbvIOVEEemg0sXdMfRgag _DFukIOVEEemg0sXdMfRgag _E9hMMOVEEemg0sXdMfRgag _QlsJMOVEEemg0sXdMfRgag _Q2OfkOVEEemg0sXdMfRgag _RsCGMOVEEemg0sXdMfRgag _R-iygOVEEemg0sXdMfRgag _TQuzIOVEEemg0sXdMfRgag _TfwGkOVEEemg0sXdMfRgag _d2JSoOVEEemg0sXdMfRgag _eE8joOVEEemg0sXdMfRgag _fEq7QOVEEemg0sXdMfRgag _gNasAOVEEemg0sXdMfRgag _gevskOVEEemg0sXdMfRgag _hTxQEOVEEemg0sXdMfRgag _hh5LoOVEEemg0sXdMfRgag _i28TAOVEEemg0sXdMfRgag _AbIwsOVFEemg0sXdMfRgag" classes="_OrBLgOSwEemKQfzNI-tWpw _yLpbIOSfEemKQfzNI-tWpw _wJiq8OUXEem6X9JuLcITng _wiG-wOTREemKQfzNI-tWpw _-HP-wOTREemKQfzNI-tWpw _CJbFoOTQEemKQfzNI-tWpw _ZcM2IOSwEemKQfzNI-tWpw _g9dWwOUhEem6X9JuLcITng _XQqLoOSwEemKQfzNI-tWpw _7uWHUOTJEemKQfzNI-tWpw _yohkYOSfEemKQfzNI-tWpw _U8sQYOUdEem6X9JuLcITng _UIgaYeUdEem6X9JuLcITng _OJfeQOUdEem6X9JuLcITng _LefzceUkEem6X9JuLcITng _U_b7AOUgEem6X9JuLcITng _CTfZQOUgEem6X9JuLcITng _WF5z0OUgEem6X9JuLcITng _Ym0RYeUgEem6X9JuLcITng _Ace0gOVFEemg0sXdMfRgag" name="model" nestingPackage="_iaRsgeVBEemg0sXdMfRgag">
+    <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_o9CO4OVBEemg0sXdMfRgag"/>
+    <visualProperties xmi:id="_o9DdAeVBEemg0sXdMfRgag" position="235.0,-306.0" size="140.0,102.0"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Ace0gOVFEemg0sXdMfRgag" containment="_AbIwsOVFEemg0sXdMfRgag" name="DateOfBirth" package="_o9DdAOVBEemg0sXdMfRgag" associationsIn="_eINIQOUeEem6X9JuLcITng">
+    <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_AQjRUOVFEemg0sXdMfRgag"/>
+    <visualProperties xmi:id="_UrpyEeTNEemKQfzNI-tWpw" position="572.0,-126.0" size="184.0,139.0"/>
+    <stereotypes xmi:id="_NyRUcOVGEembMvobOCNd4Q" name="StyledElement">
+      <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_NvE2gOVGEembMvobOCNd4Q"/>
+    </stereotypes>
+    <visibility xmi:id="_Ace0guVFEemg0sXdMfRgag" label="+"/>
+    <attributes xmi:id="_Ace0g-VFEemg0sXdMfRgag" name="day">
+      <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_Xby-cOTNEemKQfzNI-tWpw"/>
+      <visibility xmi:id="_Ace0hOVFEemg0sXdMfRgag" label="+"/>
+      <cardinality xmi:id="_Ace0heVFEemg0sXdMfRgag" label="1" max="1" min="1"/>
+      <type xmi:id="_Ace0huVFEemg0sXdMfRgag" name="Integer">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Ace0h-VFEemg0sXdMfRgag" name="month">
+      <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_YoW4MOTNEemKQfzNI-tWpw"/>
+      <visibility xmi:id="_Ace0iOVFEemg0sXdMfRgag" label="+"/>
+      <cardinality xmi:id="_Ace0ieVFEemg0sXdMfRgag" label="1" max="1" min="1"/>
+      <type xmi:id="_Ace0iuVFEemg0sXdMfRgag" name="Integer">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Ace0i-VFEemg0sXdMfRgag" name="year">
+      <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_d15UEOTNEemKQfzNI-tWpw"/>
+      <visibility xmi:id="_Ace0jOVFEemg0sXdMfRgag" label="+"/>
+      <cardinality xmi:id="_Ace0jeVFEemg0sXdMfRgag" label="1" max="1" min="1"/>
+      <type xmi:id="_Ace0juVFEemg0sXdMfRgag" name="Integer">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_WF5z0OUgEem6X9JuLcITng" containment="_hh5LoOVEEemg0sXdMfRgag" name="CGEPCourse" package="_o9DdAOVBEemg0sXdMfRgag" generalizations="_rcev0OUgEem6X9JuLcITng">
+    <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_WF5MwOUgEem6X9JuLcITng"/>
+    <visualProperties xmi:id="_WF5z0eUgEem6X9JuLcITng" position="675.0,869.0" size="144.0,72.0"/>
+    <stereotypes xmi:id="_NxwXEOVGEembMvobOCNd4Q" name="StyledElement">
+      <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_Nu_W8OVGEembMvobOCNd4Q"/>
+    </stereotypes>
+    <visibility xmi:id="_WF5z0uUgEem6X9JuLcITng" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_U8sQYOUdEem6X9JuLcITng" containment="_d2JSoOVEEemg0sXdMfRgag" name="SmallRoom" package="_o9DdAOVBEemg0sXdMfRgag" generalizations="_VpnAwOUdEem6X9JuLcITng">
+    <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_U8rpUOUdEem6X9JuLcITng"/>
+    <visualProperties xmi:id="_U8sQYeUdEem6X9JuLcITng" position="-214.0,896.0" size="159.0,86.0"/>
+    <stereotypes xmi:id="_N1hcwOVGEembMvobOCNd4Q" name="StyledElement">
+      <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_NvTgAOVGEembMvobOCNd4Q"/>
+    </stereotypes>
+    <visibility xmi:id="_U8sQYuUdEem6X9JuLcITng" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_UIgaYeUdEem6X9JuLcITng" containment="_eE8joOVEEemg0sXdMfRgag" name="BigRoom" package="_o9DdAOVBEemg0sXdMfRgag" associationsOut="_t7fgkOV7Eem-8IV7cih3QA" generalizations="_VdRN4OUdEem6X9JuLcITng">
+    <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_UIgaYOUdEem6X9JuLcITng"/>
+    <visualProperties xmi:id="_UIhBcOUdEem6X9JuLcITng" position="-405.0,892.0" size="142.0,94.0"/>
+    <stereotypes xmi:id="_NxQAwOVGEembMvobOCNd4Q" name="StyledElement">
+      <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_Nu-v4OVGEembMvobOCNd4Q"/>
+    </stereotypes>
+    <visibility xmi:id="_UIhBceUdEem6X9JuLcITng" label="+"/>
+    <attributes xmi:id="_n3aeQOV7Eem-8IV7cih3QA" name="capacity">
+      <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_n3ZQIOV7Eem-8IV7cih3QA"/>
+      <visibility xmi:id="_n3aeQeV7Eem-8IV7cih3QA" label="+"/>
+      <cardinality xmi:id="_n3aeQuV7Eem-8IV7cih3QA" label="1" max="1" min="1"/>
+      <type xmi:id="_n3aeQ-V7Eem-8IV7cih3QA" name="Integer">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_t7ij4OV7Eem-8IV7cih3QA" name="manager">
+      <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_t7dEU-V7Eem-8IV7cih3QA"/>
+      <visibility xmi:id="_t7ij4eV7Eem-8IV7cih3QA" label="+"/>
+      <cardinality xmi:id="_t7ij4uV7Eem-8IV7cih3QA" label="1" max="1" min="1"/>
+      <type xmi:id="_t7ij4-V7Eem-8IV7cih3QA" name="Manager">
+        <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_yJ_OQOSfEemKQfzNI-tWpw"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_LefzceUkEem6X9JuLcITng" containment="_gNasAOVEEemg0sXdMfRgag" name="AvaliableSession" package="_o9DdAOVBEemg0sXdMfRgag" associationsIn="__-O_0OUkEem6X9JuLcITng _TfhYEOV7Eem-8IV7cih3QA">
+    <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_LefzcOUkEem6X9JuLcITng"/>
+    <visualProperties xmi:id="_LefzcuUkEem6X9JuLcITng" position="167.0,657.0" size="198.0,177.0"/>
+    <stereotypes xmi:id="_NwsAEOVGEembMvobOCNd4Q" name="StyledElement">
+      <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_NuzwwOVGEembMvobOCNd4Q"/>
+    </stereotypes>
+    <visibility xmi:id="_Lefzc-UkEem6X9JuLcITng" label="+"/>
+    <attributes xmi:id="_Q8MyQOUkEem6X9JuLcITng" name="startTime">
+      <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_Q8MLMOUkEem6X9JuLcITng"/>
+      <visibility xmi:id="_Q8MyQeUkEem6X9JuLcITng" label="+"/>
+      <cardinality xmi:id="_Q8MyQuUkEem6X9JuLcITng" label="1" max="1" min="1"/>
+      <type xmi:id="_T5lJYOUkEem6X9JuLcITng" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_VP1xsOUkEem6X9JuLcITng" name="endTime">
+      <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_VP1KoOUkEem6X9JuLcITng"/>
+      <visibility xmi:id="_VP1xseUkEem6X9JuLcITng" label="+"/>
+      <cardinality xmi:id="_VP1xsuUkEem6X9JuLcITng" label="1" max="1" min="1"/>
+      <type xmi:id="_VP1xs-UkEem6X9JuLcITng" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_TfvagOV7Eem-8IV7cih3QA" name="registeredTutor">
+      <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_Te00gOV7Eem-8IV7cih3QA"/>
+      <visibility xmi:id="_TfvageV7Eem-8IV7cih3QA" label="+"/>
+      <cardinality xmi:id="_TfvaguV7Eem-8IV7cih3QA" label="*" max="-1"/>
+      <type xmi:id="_Tfvag-V7Eem-8IV7cih3QA" name="RegisteredTutor">
+        <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_ZcMPEOSwEemKQfzNI-tWpw"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_OJfeQOUdEem6X9JuLcITng" containment="_fEq7QOVEEemg0sXdMfRgag" name="Classroom" package="_o9DdAOVBEemg0sXdMfRgag" abstractClass="true" associationsOut="_iAfPIOUjEem6X9JuLcITng" subclassedBy="_VdRN4OUdEem6X9JuLcITng _VpnAwOUdEem6X9JuLcITng">
+    <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_OJeQIOUdEem6X9JuLcITng"/>
+    <visualProperties xmi:id="_OJfeQeUdEem6X9JuLcITng" position="-289.0,692.0" size="183.0,86.0"/>
+    <stereotypes xmi:id="_NyPfQOVGEembMvobOCNd4Q" name="StyledElement">
+      <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_NvAlEOVGEembMvobOCNd4Q"/>
+    </stereotypes>
+    <visibility xmi:id="_OJfeQuUdEem6X9JuLcITng" label="+"/>
+    <attributes xmi:id="_76Hm8OUgEem6X9JuLcITng" name="roomCode">
+      <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_76G_4OUgEem6X9JuLcITng"/>
+      <visibility xmi:id="_76Hm8eUgEem6X9JuLcITng" label="+"/>
+      <cardinality xmi:id="_76Hm8uUgEem6X9JuLcITng" label="1" max="1" min="1"/>
+      <type xmi:id="_76Hm8-UgEem6X9JuLcITng" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_iAf2MOUjEem6X9JuLcITng" name="offering">
+      <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_iAcy5OUjEem6X9JuLcITng"/>
+      <visibility xmi:id="_iAf2MeUjEem6X9JuLcITng" label="+"/>
+      <cardinality xmi:id="_iAf2MuUjEem6X9JuLcITng" label="*" max="-1"/>
+      <type xmi:id="_iAf2M-UjEem6X9JuLcITng" name="Offering">
+        <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_7uU5MOTJEemKQfzNI-tWpw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_6nYkYOV7Eem-8IV7cih3QA" name="isBooked">
+      <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_6nX9UOV7Eem-8IV7cih3QA"/>
+      <visibility xmi:id="_6nYkYeV7Eem-8IV7cih3QA" label="+"/>
+      <cardinality xmi:id="_6nYkYuV7Eem-8IV7cih3QA" label="1" max="1" min="1"/>
+      <type xmi:id="_6nYkY-V7Eem-8IV7cih3QA" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_CJbFoOTQEemKQfzNI-tWpw" containment="_QlsJMOVEEemg0sXdMfRgag" name="TutorApplicant" package="_o9DdAOVBEemg0sXdMfRgag" associationsOut="_AgLhMOUjEem6X9JuLcITng" generalizations="_FgFNgOTSEemKQfzNI-tWpw">
+    <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_CJZ3gOTQEemKQfzNI-tWpw"/>
+    <visualProperties xmi:id="_CJbFoeTQEemKQfzNI-tWpw" position="-33.0,310.0" size="187.0,164.0"/>
+    <stereotypes xmi:id="_N4OLcOVGEembMvobOCNd4Q" name="StyledElement">
+      <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_NvftQOVGEembMvobOCNd4Q"/>
+    </stereotypes>
+    <visibility xmi:id="_CJbFouTQEemKQfzNI-tWpw" label="+"/>
+    <attributes xmi:id="_AgNWYOUjEem6X9JuLcITng" name="subject">
+      <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_AgEzgOUjEem6X9JuLcITng"/>
+      <visibility xmi:id="_AgNWYeUjEem6X9JuLcITng" label="+"/>
+      <cardinality xmi:id="_AgNWYuUjEem6X9JuLcITng" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_AgNWY-UjEem6X9JuLcITng" name="Subject">
+        <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_yogWQOSfEemKQfzNI-tWpw"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_ZcM2IOSwEemKQfzNI-tWpw" containment="_Q2OfkOVEEemg0sXdMfRgag" name="RegisteredTutor" package="_o9DdAOVBEemg0sXdMfRgag" associationsIn="_KKo7IOSxEemKQfzNI-tWpw" associationsOut="_aI4sQOTMEemKQfzNI-tWpw _TfhYEOV7Eem-8IV7cih3QA" generalizations="_FunYwOTSEemKQfzNI-tWpw">
+    <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_ZcMPEOSwEemKQfzNI-tWpw"/>
+    <visualProperties xmi:id="_ZcM2IeSwEemKQfzNI-tWpw" position="204.0,316.0" size="198.0,161.0"/>
+    <stereotypes xmi:id="_N1Ew0OVGEembMvobOCNd4Q" name="StyledElement">
+      <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_NvRq0OVGEembMvobOCNd4Q"/>
+    </stereotypes>
+    <visibility xmi:id="_ZcM2IuSwEemKQfzNI-tWpw" label="+"/>
+    <attributes xmi:id="_KKpiMOSxEemKQfzNI-tWpw" name="subjectsTaught">
+      <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_KKlQweSxEemKQfzNI-tWpw"/>
+      <visibility xmi:id="_KKpiMeSxEemKQfzNI-tWpw" label="+"/>
+      <cardinality xmi:id="_KKpiMuSxEemKQfzNI-tWpw" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_KKpiM-SxEemKQfzNI-tWpw" name="Subject">
+        <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_yogWQOSfEemKQfzNI-tWpw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_aI-y4OTMEemKQfzNI-tWpw" name="offeringsTaught">
+      <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_aIo0oeTMEemKQfzNI-tWpw"/>
+      <visibility xmi:id="_aI-y4eTMEemKQfzNI-tWpw" label="+"/>
+      <cardinality xmi:id="_aI-y4uTMEemKQfzNI-tWpw" label="*" max="-1"/>
+      <type xmi:id="_aI-y4-TMEemKQfzNI-tWpw" name="Offering">
+        <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_7uU5MOTJEemKQfzNI-tWpw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Tf5ykOV7Eem-8IV7cih3QA" name="avaliableSession">
+      <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_TfNPAeV7Eem-8IV7cih3QA"/>
+      <visibility xmi:id="_Tf5ykeV7Eem-8IV7cih3QA" label="+"/>
+      <cardinality xmi:id="_Tf5ykuV7Eem-8IV7cih3QA" label="*" max="-1"/>
+      <type xmi:id="_Tf5yk-V7Eem-8IV7cih3QA" name="AvaliableSession">
+        <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_LefzcOUkEem6X9JuLcITng"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_-HP-wOTREemKQfzNI-tWpw" containment="_E9hMMOVEEemg0sXdMfRgag" name="TutorRole" package="_o9DdAOVBEemg0sXdMfRgag" abstractClass="true" associationsIn="_SXwqkOTSEemKQfzNI-tWpw" subclassedBy="_FgFNgOTSEemKQfzNI-tWpw _FunYwOTSEemKQfzNI-tWpw">
+    <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_-HPXsOTREemKQfzNI-tWpw"/>
+    <visualProperties xmi:id="_-HP-weTREemKQfzNI-tWpw" position="115.0,81.0" size="150.0,101.0"/>
+    <stereotypes xmi:id="_N0HHgOVGEembMvobOCNd4Q" name="StyledElement">
+      <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_NvNZYOVGEembMvobOCNd4Q"/>
+    </stereotypes>
+    <visibility xmi:id="_-HP-wuTREemKQfzNI-tWpw" label="+"/>
+    <attributes xmi:id="_SX2xMOTSEemKQfzNI-tWpw" name="tutor">
+      <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_SXm5kOTSEemKQfzNI-tWpw"/>
+      <visibility xmi:id="_SX2xMeTSEemKQfzNI-tWpw" label="+"/>
+      <cardinality xmi:id="_SX2xMuTSEemKQfzNI-tWpw" label="1" max="1" min="1"/>
+      <type xmi:id="_SX2xM-TSEemKQfzNI-tWpw" name="Tutor">
+        <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_wiGXsOTREemKQfzNI-tWpw"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_hVcLYeVBEemg0sXdMfRgag" containment="_meizMOVBEemg0sXdMfRgag" containments="_mQz5MOVBEemg0sXdMfRgag" name="ecse321" nestedPackages="_iaRsgeVBEemg0sXdMfRgag" nestingPackage="_gW9J4OVBEemg0sXdMfRgag">
+    <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_hVcLYOVBEemg0sXdMfRgag"/>
+    <visualProperties xmi:id="_hVcLYuVBEemg0sXdMfRgag" position="211.0,-502.0" size="145.0,75.0"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_OrBLgOSwEemKQfzNI-tWpw" containment="_T5jjIOVDEemg0sXdMfRgag" name="Person" package="_o9DdAOVBEemg0sXdMfRgag" abstractClass="true" associationsOut="_74nhMOUXEem6X9JuLcITng _eINIQOUeEem6X9JuLcITng" subclassedBy="_W1R3MOSwEemKQfzNI-tWpw _X8syQOSwEemKQfzNI-tWpw _yGpToOTREemKQfzNI-tWpw">
+    <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_OrAkcOSwEemKQfzNI-tWpw"/>
+    <visualProperties xmi:id="_OrBLgeSwEemKQfzNI-tWpw" position="222.0,-121.0" size="219.0,-1.0"/>
+    <stereotypes xmi:id="_N0mPsOVGEembMvobOCNd4Q" name="StyledElement">
+      <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_NvOngOVGEembMvobOCNd4Q"/>
+    </stereotypes>
+    <visibility xmi:id="_OrBLguSwEemKQfzNI-tWpw" label="+"/>
+    <attributes xmi:id="_zK7eIOSwEemKQfzNI-tWpw" name="firstName">
+      <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_zK3zwOSwEemKQfzNI-tWpw"/>
+      <visibility xmi:id="_zK7eIeSwEemKQfzNI-tWpw" label="+"/>
+      <cardinality xmi:id="_zK7eIuSwEemKQfzNI-tWpw" label="1" max="1" min="1"/>
+      <type xmi:id="_zK7eI-SwEemKQfzNI-tWpw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_5qQSAOSwEemKQfzNI-tWpw" name="lastName">
+      <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_5qPq8OSwEemKQfzNI-tWpw"/>
+      <visibility xmi:id="_5qQ5EOSwEemKQfzNI-tWpw" label="+"/>
+      <cardinality xmi:id="_5qQ5EeSwEemKQfzNI-tWpw" label="1" max="1" min="1"/>
+      <type xmi:id="_5qQ5EuSwEemKQfzNI-tWpw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_74oIQOUXEem6X9JuLcITng" name="loginInfo">
+      <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_74lE9OUXEem6X9JuLcITng"/>
+      <visibility xmi:id="_74oIQeUXEem6X9JuLcITng" label="+"/>
+      <cardinality xmi:id="_74oIQuUXEem6X9JuLcITng" label="1" max="1" min="1"/>
+      <type xmi:id="_74oIQ-UXEem6X9JuLcITng" name="Login">
+        <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_wJhc0OUXEem6X9JuLcITng"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_eIOWYOUeEem6X9JuLcITng" name="dateOfBirth">
+      <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_eIKE8OUeEem6X9JuLcITng"/>
+      <visibility xmi:id="_eIOWYeUeEem6X9JuLcITng" label="+"/>
+      <cardinality xmi:id="_eIOWYuUeEem6X9JuLcITng" label="1" max="1" min="1"/>
+      <type xmi:id="_AdXlUOVFEemg0sXdMfRgag" name="DateOfBirth">
+        <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_AQjRUOVFEemg0sXdMfRgag"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_wJiq8OUXEem6X9JuLcITng" containment="_CxbvIOVEEemg0sXdMfRgag" name="Login" package="_o9DdAOVBEemg0sXdMfRgag" associationsIn="_74nhMOUXEem6X9JuLcITng">
+    <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_wJhc0OUXEem6X9JuLcITng"/>
+    <visualProperties xmi:id="_wJiq8eUXEem6X9JuLcITng" position="-227.0,-136.0" size="254.0,130.0"/>
+    <stereotypes xmi:id="_NzKFQOVGEembMvobOCNd4Q" name="StyledElement">
+      <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_NvHSwOVGEembMvobOCNd4Q"/>
+    </stereotypes>
+    <visibility xmi:id="_wJiq8uUXEem6X9JuLcITng" label="+"/>
+    <attributes xmi:id="_0hGhEOUXEem6X9JuLcITng" name="email">
+      <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_0hF6AOUXEem6X9JuLcITng"/>
+      <visibility xmi:id="_0hGhEeUXEem6X9JuLcITng" label="+"/>
+      <cardinality xmi:id="_0hGhEuUXEem6X9JuLcITng" label="1" max="1" min="1"/>
+      <type xmi:id="_0hGhE-UXEem6X9JuLcITng" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_2n_VEOUXEem6X9JuLcITng" name="phoneNumber">
+      <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_2n-G8OUXEem6X9JuLcITng"/>
+      <visibility xmi:id="_2n_VEeUXEem6X9JuLcITng" label="+"/>
+      <cardinality xmi:id="_2n_VEuUXEem6X9JuLcITng" label="1" max="1" min="1"/>
+      <type xmi:id="_3-misOUXEem6X9JuLcITng" name="Integer">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ArO7oOUYEem6X9JuLcITng" name="userName">
+      <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_ArMfYOUYEem6X9JuLcITng"/>
+      <visibility xmi:id="_ArO7oeUYEem6X9JuLcITng" label="+"/>
+      <cardinality xmi:id="_ArO7ouUYEem6X9JuLcITng" label="1" max="1" min="1"/>
+      <type xmi:id="_ArO7o-UYEem6X9JuLcITng" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Cdu0AOUYEem6X9JuLcITng" name="password">
+      <modelElement href="ca.mcgill.ecse321.tutoringservice.model.uml#_CduM8OUYEem6X9JuLcITng"/>
+      <visibility xmi:id="_Cdu0AeUYEem6X9JuLcITng" label="+"/>
+      <cardinality xmi:id="_Cdu0AuUYEem6X9JuLcITng" label="1" max="1" min="1"/>
+      <type xmi:id="_Cdu0A-UYEem6X9JuLcITng" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
